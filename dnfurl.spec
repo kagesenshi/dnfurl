@@ -3,7 +3,7 @@
 
 Name:           dnfurl
 Version:        0.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Simple utility for launching dnf:// url
 
 License:        MIT
@@ -47,5 +47,8 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/dnfurl.desktop
 %post
 
 %changelog
+* Thu Feb 18 2021 Izhar Firdaus <kagesenshi.87@gmail.com> 0.1-2
+- First functional build
+
 * Thu Feb 18 2021 Izhar Firdaus <kagesenshi.87@gmail.com>
 - initial package
