@@ -3,7 +3,7 @@
 
 Name:           dnfurl
 Version:        0.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Simple utility for launching dnf:// url
 BuildArch:      noarch
 License:        MIT
@@ -47,6 +47,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/dnfurl.desktop
 %post
 
 %changelog
+* Thu Feb 18 2021 Izhar Firdaus <kagesenshi.87@gmail.com> 0.1-3
+- build as noarch (kagesenshi.87@gmail.com)
+
 * Thu Feb 18 2021 Izhar Firdaus <kagesenshi.87@gmail.com> 0.1-2
 - First functional build
 
