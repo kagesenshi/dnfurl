@@ -1,0 +1,4 @@
+#!/bin/bash
+
+PKG=`echo $1|sed 's|^dnf://||'`
+gnome-software --details-pkg=$PKG

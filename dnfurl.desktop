@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=dnfurl %U
+Terminal=false
+NoDisplay=true
+MimeType=x-scheme-handler/dnf
