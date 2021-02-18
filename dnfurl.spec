@@ -5,7 +5,7 @@ Name:           dnfurl
 Version:        0.1
 Release:        2%{?dist}
 Summary:        Simple utility for launching dnf:// url
-
+BuildArch:      noarch
 License:        MIT
 URL:            http://github.com/kagesenshi/dnfurl
 Source0:        %{name}-%{version}.tar.gz
