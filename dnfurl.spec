@@ -17,6 +17,7 @@ support GNOME Sofware for now.
 %setup -q 
 
 %build
+echo "OK"
 
 %install
 rm -rf $RPM_BUILD_ROOT
