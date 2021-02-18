@@ -1,6 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
+Name=dnfurl
 Exec=dnfurl %U
 Terminal=false
 NoDisplay=true
